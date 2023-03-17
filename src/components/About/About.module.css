@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Lobster&family=Poor+Story&display=swap');
+
+
+.page{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poor Story', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #05AFF2;
+    border: #2A0859;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.page h1{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poor Story', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #05AFF2;
+    border: #2A0859;
+    width: 60%;
+    margin-left: 35%;
+    margin-right: 20%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}

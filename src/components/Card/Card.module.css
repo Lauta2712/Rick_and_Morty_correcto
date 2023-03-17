@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Lobster&family=Poor+Story&display=swap');
+
+.divContenedor{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poor Story', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: none;
+    border: #2A0859;
+    border-radius: 15px;
+    height: fit-content;
+}
+
+
+.divContenedor h2{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poor Story', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    color: #05AFF2;
+    margin: 0.8rem;
+    padding-left: 30%;
+    padding-right: 40%;
+}
+
+.divContenedor img{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poor Story', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    margin-top: 2rem;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.divContenedor button{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poor Story', cursive;
+    background-color: #180640;
+    position: relative;
+    display: inline-block;
+    color: #05AFF2;
+    width: fit-content;
+    border-radius: 20px;
+    margin-top: 2rem;
+    margin-left: 18%;
+    margin-right: 20%;
+    border: hidden;
+    letter-spacing: 2px;
+    font-size: 11px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.divContenedor button:hover{
+    background-color: #2A0859;
+    box-shadow: 0 0 10px #2A0859, 0 0 40px #2A0859, 0 0 80px #2A0859;
+}
+

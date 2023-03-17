@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Lobster&family=Poor+Story&display=swap');
+
+
+.searchBar{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poor Story', cursive;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.8rem;
+    margin-bottom: 0;
+}
+
+.searchBar input{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poor Story', cursive;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin-top: 2rem;
+    border-radius: 15px;
+    /* margin-left: 30%;
+    margin-right: 30%; */
+}
+
+.searchBar button{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poor Story', cursive;
+    background-color: #180640;
+    padding: 10px 25px;
+    color: #05AFF2;
+    width: fit-content;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    border: hidden;
+    letter-spacing: 2px;
+    font-size: 18px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.searchBar button:hover{
+    background-color: #2A0859;
+    box-shadow: 0 0 10px #2A0859, 0 0 40px #2A0859, 0 0 80px #2A0859;
+
+}

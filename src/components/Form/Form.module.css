@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Lobster&family=Poor+Story&display=swap');
+
+
+.divForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2A0859;
+    width: 18%;
+    padding: 2rem;
+    margin-left: 40%;
+    margin-right: 42%;
+    margin-top: 6rem;
+    box-shadow: 10px 10px 91px 0px rgba(208,64,212,0.75);
+    -webkit-box-shadow: 10px 10px 91px 0px rgba(208,64,212,0.75);
+    -moz-box-shadow: 10px 10px 91px 0px rgba(208,64,212,0.75);
+}
+
+.divForm label{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poor Story', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #05AFF2;
+    background-color: #2A0859;
+    font-size: 18px;
+    border: none;
+}
+
+.divForm input{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poor Story', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #05AFF2;
+    background-color: #2A0859;
+    font-size: 15px;
+    border: 1px solid #05AFF2;
+}
+
+.divForm p{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poor Story', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #05AFF2;
+    background-color: #2A0859;
+}
+
+.divForm button{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poor Story', cursive;
+    background-color: #180640;
+    color: #05AFF2;
+    width: fit-content;
+    margin-top: 2rem;
+    border: 1px solid #05AFF2;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.error{
+    color: red;
+}

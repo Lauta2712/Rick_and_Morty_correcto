@@ -1,11 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Lobster&family=Poor+Story&display=swap');
 
-.divNav{
+.searchBar{
     font-family: 'Inconsolata', monospace;
     font-family: 'Lobster', cursive;
     font-family: 'Poor Story', cursive;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    max-width: auto;
     margin-right: 2rem;
+}
+
+.divNav{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poor Story', cursive;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 20px;
 }

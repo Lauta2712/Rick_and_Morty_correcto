@@ -5,7 +5,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-right: 1rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
 }
 
 .divCards h1{

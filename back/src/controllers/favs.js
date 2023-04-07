@@ -1,7 +1,8 @@
-const favs = require('../utils/favs')
+let {favs} = require('../utils/favs')
 
 function postFavs ( req, res ) {
     favs.push(req.body);
+    console.log(favs);
     res.status(201).json(favs);
 }
 
@@ -10,8 +11,9 @@ function getFavs (req, res) {
 }
 
 function deleteFavs (req, res) {
-    const {id} = req.params;
+    let {id} = req.params;
     favs = favs.filter(char => char.id != id)
+    console.log(favs);
     res.status(200).json(favs);
 }
 

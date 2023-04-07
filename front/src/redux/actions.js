@@ -1,6 +1,6 @@
+import axios from "axios"
 export const ADD_FAVORITE = "ADD_FAVORITE";
 export const REMOVE_FAVORITE = "REMOVE_FAVORITE";
-import axios from "axios"
 
 export const addFavorite = (character) => {  
     return async function (dispatch){
@@ -11,7 +11,9 @@ export const addFavorite = (character) => {
                     {type: ADD_FAVORITE, payload: response.data}
                 )
             })
-        } catch (error) {}
+        } catch (error) {
+            console.log('Estoy roto :( ');
+        }
     }
 };
 
@@ -24,6 +26,8 @@ export const removeFavorite = (id) => {
                     { type: REMOVE_FAVORITE, payload: response.data }
                 )
             })
-        } catch (error) {}
+        } catch (error) {
+            console.log('Estoy roto :( ');
+        }
     }
 };

@@ -10,15 +10,13 @@ const rootReducer = (state = initialState, action) => {
         case ADD_FAVORITE:
             return {
                 ...state, 
-                myFavorites: payload,
+                myFavorites: action.payload,
             };
-
         case REMOVE_FAVORITE:
             return { 
                 ...state, 
-                myFavorites: payload,
+                myFavorites: action.payload,
             };
-
         default:
             return {...state};
     }

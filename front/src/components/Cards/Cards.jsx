@@ -5,9 +5,9 @@ import styles from './Cards.module.css';
 export default function Cards({ characters, onClose }) {
    return (
       <>
-      <div className={styles.divCards}>
+      {/* <div className={styles.divCards}>
          <h1>Rick And Morty Staff</h1>
-      </div>
+      </div> */}
       <div className={styles.divCards}>
          {characters.map(({ id, name, species, gender, image })=>{
             return (
